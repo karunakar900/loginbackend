@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyparser = require('body-parser');
 const mongoose = require('mongoose');
-const Router = require('../loginbackend/Routes/dataroutes');
+const Router = require('./Routes/dataroutes');
 const app = express();
 const cors = require('cors')
 app.use(cors());
