@@ -10,7 +10,7 @@ app.use(cors());
 
 app.use(bodyparser.json());
 
-const mongourl = "mongodb+srv://karunakar:0VoFTmPbewW8KEFV@cluster0.etvxwbu.mongodb.net/?retryWrites=true&w=majority"
+const mongourl = "mongodb+srv://karunakar:wTUJQML9QnGH3fNr@cluster0.etvxwbu.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(mongourl, {
     UseNewUrlParser: true
 })
